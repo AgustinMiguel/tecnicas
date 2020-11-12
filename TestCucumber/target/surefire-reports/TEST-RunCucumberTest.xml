@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="1" name="RunCucumberTest" time="0.165" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/opt/jdk8/jdk1.8.0_191/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/oscar/eclipse-workspace/TestCucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="AR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/oscar/eclipse-workspace/TestCucumber"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/opt/jdk8/jdk1.8.0_191/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/oscar/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf924848986174488254.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.4.0-48-generic"/>
+    <property name="user.home" value="/home/oscar"/>
+    <property name="user.timezone" value="America/Argentina/Buenos_Aires"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="oscar"/>
+    <property name="java.class.path" value="/home/oscar/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.12.0.20190529-1915/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/opt/jdk8/jdk1.8.0_191/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="/opt/jdk8/jdk1.8.0_191/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/opt/jdk8/jdk1.8.0_191/jre/lib/resources.jar:/opt/jdk8/jdk1.8.0_191/jre/lib/rt.jar:/opt/jdk8/jdk1.8.0_191/jre/lib/sunrsasign.jar:/opt/jdk8/jdk1.8.0_191/jre/lib/jsse.jar:/opt/jdk8/jdk1.8.0_191/jre/lib/jce.jar:/opt/jdk8/jdk1.8.0_191/jre/lib/charsets.jar:/opt/jdk8/jdk1.8.0_191/jre/lib/jfr.jar:/opt/jdk8/jdk1.8.0_191/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/oscar/eclipse-workspace/TestCucumber/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Test Background Feature" name="Buscar un producto y agregar el primero al carrito" time="0.133">
+    <error message="The step &quot;Estoy en la pagina de login&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;Estoy en la pagina de login&quot;)
+public void estoy_en_la_pagina_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;ingreso username and password&quot;)
+public void ingreso_username_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;deberia ingresar&quot;)
+public void deberia_ingresar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;El usuario busca una Laptop Lenovo&quot;)
+public void el_usuario_busca_una_laptop_lenovo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;agrego la primer laptop que aparece en los resultados de busqueda al carrito&quot;)
+public void agrego_la_primer_laptop_que_aparece_en_los_resultados_de_busqueda_al_carrito() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;el carrito deberia mostrar el nuevo item agregado&quot;)
+public void el_carrito_deberia_mostrar_el_nuevo_item_agregado() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;Estoy en la pagina de login&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;Estoy en la pagina de login&quot;)
+public void estoy_en_la_pagina_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;ingreso username and password&quot;)
+public void ingreso_username_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;deberia ingresar&quot;)
+public void deberia_ingresar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;El usuario busca una Laptop Lenovo&quot;)
+public void el_usuario_busca_una_laptop_lenovo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;agrego la primer laptop que aparece en los resultados de busqueda al carrito&quot;)
+public void agrego_la_primer_laptop_que_aparece_en_los_resultados_de_busqueda_al_carrito() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;el carrito deberia mostrar el nuevo item agregado&quot;)
+public void el_carrito_deberia_mostrar_el_nuevo_item_agregado() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: Buscar un producto y agregar el primero al carrito                        &amp;#27;[90m# TareaTest.feature:28&amp;#27;[0m
+-----------------Start of Scenario-----------------
+Start the browser and Clear the cookies
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mEstoy en la pagina de login&amp;#27;[0m                                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mingreso username and password&amp;#27;[0m                                                &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mdeberia ingresar&amp;#27;[0m                                                             &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mEl usuario busca una Laptop Lenovo&amp;#27;[0m                                          &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36magrego la primer laptop que aparece en los resultados de busqueda al carrito&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mel carrito deberia mostrar el nuevo item agregado&amp;#27;[0m                            &amp;#27;[90m# null&amp;#27;[0m
+Log out the user and close the browser
+-----------------End of Scenario-----------------
+</system-out>
+  </testcase>
+  <testcase classname="Test Background Feature" name="Navegar a un producto y agregarlo al carrito" time="0.007">
+    <error message="The step &quot;Estoy en la pagina de login&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;Estoy en la pagina de login&quot;)
+public void estoy_en_la_pagina_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;ingreso username and password&quot;)
+public void ingreso_username_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;deberia ingresar&quot;)
+public void deberia_ingresar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;Usuario navega por una Laptop Lenovo&quot;)
+public void usuario_navega_por_una_laptop_lenovo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;agrega el laptop al carrito Add the laptop to the basket&quot;)
+public void agrega_el_laptop_al_carrito_add_the_laptop_to_the_basket() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;el carrito deberia mostrar el nuevo item agregado&quot;)
+public void el_carrito_deberia_mostrar_el_nuevo_item_agregado() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;Estoy en la pagina de login&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;Estoy en la pagina de login&quot;)
+public void estoy_en_la_pagina_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;ingreso username and password&quot;)
+public void ingreso_username_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;deberia ingresar&quot;)
+public void deberia_ingresar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;Usuario navega por una Laptop Lenovo&quot;)
+public void usuario_navega_por_una_laptop_lenovo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;agrega el laptop al carrito Add the laptop to the basket&quot;)
+public void agrega_el_laptop_al_carrito_add_the_laptop_to_the_basket() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;el carrito deberia mostrar el nuevo item agregado&quot;)
+public void el_carrito_deberia_mostrar_el_nuevo_item_agregado() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: Navegar a un producto y agregarlo al carrito          &amp;#27;[90m# TareaTest.feature:33&amp;#27;[0m
+-----------------Start of Scenario-----------------
+Start the browser and Clear the cookies
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mEstoy en la pagina de login&amp;#27;[0m                             &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mingreso username and password&amp;#27;[0m                            &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mdeberia ingresar&amp;#27;[0m                                         &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mUsuario navega por una Laptop Lenovo&amp;#27;[0m                    &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36magrega el laptop al carrito Add the laptop to the basket&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mel carrito deberia mostrar el nuevo item agregado&amp;#27;[0m        &amp;#27;[90m# null&amp;#27;[0m
+Log out the user and close the browser
+-----------------End of Scenario-----------------
+</system-out>
+  </testcase>
+  <testcase classname="suma" name="Sumar dos números #1" time="0.015"/>
+  <testcase classname="suma" name="Sumar dos números #2" time="0.005"/>
+  <testcase classname="suma" name="Sumar dos números #3" time="0.005">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at testCucumber.TestCalculator.el_resultado_debe_ser_en_la_pantalla(TestCalculator.java:42)
+	at ✽.el resultado debe ser -40 en la pantalla(classpath:calculadora.feature:26)
+</failure>
+    <system-out>
+@tag
+Scenario Outline: Sumar dos números                   &amp;#27;[90m# calculadora.feature:33&amp;#27;[0m
+-----------------Start of Scenario-----------------
+Start the browser and Clear the cookies
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mque he introducido &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m0&amp;#27;[0m&amp;#27;[32m en la calculadora&amp;#27;[0m        &amp;#27;[90m# testCucumber.TestCalculator.que_he_introducido_en_la_calculadora(java.lang.Integer)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mque tambien he introducido &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m40&amp;#27;[0m&amp;#27;[32m en la calculadora&amp;#27;[0m &amp;#27;[90m# testCucumber.TestCalculator.que_tambien_he_introducido_en_la_calculadora(java.lang.Integer)&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32moprimo el add&amp;#27;[0m                                  &amp;#27;[90m# testCucumber.TestCalculator.oprimo_el_add()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mel resultado debe ser &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m-40&amp;#27;[0m&amp;#27;[31m en la pantalla&amp;#27;[0m       &amp;#27;[90m# testCucumber.TestCalculator.el_resultado_debe_ser_en_la_pantalla(java.lang.Integer)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at testCucumber.TestCalculator.el_resultado_debe_ser_en_la_pantalla(TestCalculator.java:42)
+	at ✽.el resultado debe ser -40 en la pantalla(classpath:calculadora.feature:26)
+&amp;#27;[0m
+Log out the user and close the browser
+-----------------End of Scenario-----------------
+</system-out>
+  </testcase>
+</testsuite>

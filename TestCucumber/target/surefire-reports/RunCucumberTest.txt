@@ -1,0 +1,87 @@
+-------------------------------------------------------------------------------
+Test set: RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 0.541 sec <<< FAILURE!
+Buscar un producto y agregar el primero al carrito(Test Background Feature)  Time elapsed: 0.133 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "Estoy en la pagina de login" is undefined. You can implement it using the snippet(s) below:
+
+@Given("Estoy en la pagina de login")
+public void estoy_en_la_pagina_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("ingreso username and password")
+public void ingreso_username_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("deberia ingresar")
+public void deberia_ingresar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("El usuario busca una Laptop Lenovo")
+public void el_usuario_busca_una_laptop_lenovo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("agrego la primer laptop que aparece en los resultados de busqueda al carrito")
+public void agrego_la_primer_laptop_que_aparece_en_los_resultados_de_busqueda_al_carrito() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("el carrito deberia mostrar el nuevo item agregado")
+public void el_carrito_deberia_mostrar_el_nuevo_item_agregado() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Navegar a un producto y agregarlo al carrito(Test Background Feature)  Time elapsed: 0.007 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "Estoy en la pagina de login" is undefined. You can implement it using the snippet(s) below:
+
+@Given("Estoy en la pagina de login")
+public void estoy_en_la_pagina_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("ingreso username and password")
+public void ingreso_username_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("deberia ingresar")
+public void deberia_ingresar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("Usuario navega por una Laptop Lenovo")
+public void usuario_navega_por_una_laptop_lenovo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("agrega el laptop al carrito Add the laptop to the basket")
+public void agrega_el_laptop_al_carrito_add_the_laptop_to_the_basket() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("el carrito deberia mostrar el nuevo item agregado")
+public void el_carrito_deberia_mostrar_el_nuevo_item_agregado() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Sumar dos números #3(suma)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError
+	at testCucumber.TestCalculator.el_resultado_debe_ser_en_la_pantalla(TestCalculator.java:42)
+	at ✽.el resultado debe ser -40 en la pantalla(classpath:calculadora.feature:26)
+

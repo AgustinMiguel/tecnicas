@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Programacion.Programacion"/>
+    <fullyQualifiedTypeName name="Programacion.Programa"/>
+    <fullyQualifiedTypeName name="calendarTask.Tarea"/>
+    <fullyQualifiedTypeName name="Programacion.Tarea"/>
+    <fullyQualifiedTypeName name="restaurant.Almacen"/>
+    <fullyQualifiedTypeName name="restaurant.Cocina"/>
+    <fullyQualifiedTypeName name="restaurant.Consumible"/>
+    <fullyQualifiedTypeName name="restaurant.Ingrediente"/>
+    <fullyQualifiedTypeName name="restaurant.ItemMenu"/>
+    <fullyQualifiedTypeName name="restaurant.ItemPedido"/>
+    <fullyQualifiedTypeName name="restaurant.ItemReceta"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.Main"/>
+    <fullyQualifiedTypeName name="restaurant.Mostrador"/>
+    <fullyQualifiedTypeName name="restaurant.Pedido"/>
+    <fullyQualifiedTypeName name="restaurant.Producto"/>
+    <fullyQualifiedTypeName name="restaurant.ProductoBasico"/>
+    <fullyQualifiedTypeName name="restaurant.ProductoElaborado"/>
+    <fullyQualifiedTypeName name="restaurant.Receta"/>
+    <fullyQualifiedTypeName name="restaurant.SinSaldoException"/>
+    <fullyQualifiedTypeName name="restaurant.SinSuficientesIngredientesException"/>
+    <fullyQualifiedTypeName name="restaurant.StockOld"/>
+    <fullyQualifiedTypeName name="restaurant.Usuario"/>
+    <fullyQualifiedTypeName name="restaurant.Vendible"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="programacion.Tarea"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="sistema.Pasajero"/>
+    <fullyQualifiedTypeName name="sistema.Vuelo"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By.ByLinkText"/>
+</qualifiedTypeNameHistroy>
